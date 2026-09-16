@@ -1,0 +1,151 @@
+pedido_id,data,cliente_id,estado,categoria,produto,quantidade,preco_unitario,desconto,frete,valor_total,pagamento,status
+10001,2025-02-22,1086,RJ,Beleza,Shampoo,1,2229.82,111.49,25.62,2143.95,Boleto,Cancelado
+10002,2025-11-29,1089,PE,Eletrônicos,Mouse,1,671.54,0.0,49.29,720.83,Cartão,Cancelado
+10003,2025-06-24,1035,MG,Livros,Infantil,1,2281.25,114.06,58.87,2226.06,Cartão,Cancelado
+10004,2025-01-23,1093,CE,Eletrônicos,Mouse,4,308.21,30.82,52.26,1254.28,Boleto,Entregue
+10005,2025-12-27,1008,SP,Esportes,Bola,5,893.67,89.37,50.41,4429.39,Boleto,Entregue
+10006,2025-11-22,1046,MG,Casa,Panela,2,2602.12,390.32,29.46,4843.38,Pix,Cancelado
+10007,2025-05-06,1020,CE,Roupas,Jaqueta,1,1835.21,91.76,47.39,1790.84,Pix,Cancelado
+10008,2025-01-17,1040,PE,Beleza,Perfume,3,2531.7,0.0,26.03,7621.13,Pix,Entregue
+10009,2025-11-26,1058,MG,Roupas,Jaqueta,2,1973.21,295.98,71.93,3722.37,Pix,Entregue
+10010,2025-03-12,1065,CE,Roupas,Jaqueta,5,1296.73,194.51,35.34,6324.48,Cartão,Entregue
+10011,2025-07-17,1048,CE,Eletrônicos,Teclado,2,2380.4,357.06,51.75,4455.49,Boleto,Cancelado
+10012,2025-06-24,1014,BA,Livros,Romance,1,2051.5,205.15,63.8,1910.15,Pix,Entregue
+10013,2025-02-24,1080,BA,Esportes,Bola,3,2916.23,145.81,45.54,8648.42,Boleto,Em trânsito
+10014,2025-09-29,1000,RS,Livros,Técnico,2,1134.26,56.71,47.76,2259.57,Pix,Entregue
+10015,2025-02-10,1010,CE,Eletrônicos,Fone,3,733.57,36.68,71.46,2235.49,Cartão,Em trânsito
+10016,2025-11-07,1054,PR,Roupas,Calça,4,2841.61,142.08,28.55,11252.91,Boleto,Em trânsito
+10017,2025-09-22,1057,RJ,Beleza,Perfume,3,1209.0,120.9,40.67,3546.77,Cartão,Entregue
+10018,2025-01-04,1009,SP,Eletrônicos,Fone,1,1773.16,88.66,51.19,1735.69,Cartão,Entregue
+10019,2025-04-20,1069,MG,Eletrônicos,Fone,1,1552.19,155.22,56.83,1453.8,Boleto,Em trânsito
+10020,2025-02-19,1084,PE,Livros,HQ,2,2358.17,353.73,23.33,4385.94,Pix,Cancelado
+10021,2025-06-23,1013,PR,Esportes,Halter,1,2026.63,0.0,14.24,2040.87,Cartão,Entregue
+10022,2025-02-08,1056,RJ,Livros,HQ,2,1277.21,127.72,42.38,2469.08,Cartão,Em trânsito
+10023,2025-09-06,1061,PR,Livros,Romance,1,2780.57,139.03,21.64,2663.18,Pix,Entregue
+10024,2025-08-21,1036,PE,Roupas,Tênis,1,2956.22,295.62,74.86,2735.46,Boleto,Em trânsito
+10025,2025-10-24,1094,SP,Livros,HQ,2,585.9,29.3,77.81,1220.31,Boleto,Cancelado
+10026,2025-09-18,1010,MG,Eletrônicos,Mouse,5,1440.83,72.04,13.98,7146.09,Cartão,Em trânsito
+10027,2025-01-21,1079,RJ,Eletrônicos,Teclado,4,377.26,18.86,50.52,1540.7,Pix,Em trânsito
+10028,2025-07-22,1016,BA,Livros,Infantil,3,628.69,62.87,26.71,1849.91,Pix,Cancelado
+10029,2025-04-20,1064,BA,Eletrônicos,Mouse,4,1871.05,0.0,15.13,7499.33,Cartão,Cancelado
+10030,2025-12-27,1038,SP,Eletrônicos,Teclado,3,869.26,130.39,68.36,2545.75,Boleto,Em trânsito
+10031,2025-03-21,1034,BA,Casa,Panela,2,808.11,0.0,61.97,1678.19,Boleto,Entregue
+10032,2025-05-09,1006,RJ,Beleza,Creme,2,2068.74,206.87,45.38,3975.99,Boleto,Cancelado
+10033,2025-05-15,1020,CE,Casa,Panela,1,1014.0,50.7,54.6,1017.9,Boleto,Em trânsito
+10034,2025-07-09,1074,MG,Esportes,Bola,1,244.23,12.21,48.19,280.21,Pix,Entregue
+10035,2025-04-18,1087,PR,Eletrônicos,Fone,3,2698.96,0.0,72.92,8169.8,Boleto,Entregue
+10036,2025-04-01,1052,SP,Casa,Mesa,5,2253.44,112.67,70.52,11225.05,Cartão,Em trânsito
+10037,2025-01-20,1060,PR,Casa,Mesa,2,815.08,0.0,36.78,1666.94,Cartão,Cancelado
+10038,2025-05-23,1008,BA,Casa,Cadeira,2,684.31,34.22,37.89,1372.29,Pix,Em trânsito
+10039,2025-05-14,1022,BA,Livros,HQ,5,1006.83,0.0,18.07,5052.22,Cartão,Entregue
+10040,2025-09-19,1014,PE,Livros,HQ,3,2191.06,219.11,40.55,6394.62,Boleto,Entregue
+10041,2025-02-05,1085,RS,Casa,Panela,4,25.04,1.25,35.5,134.41,Boleto,Cancelado
+10042,2025-12-23,1037,MG,Beleza,Shampoo,3,1531.23,229.68,32.83,4396.84,Cartão,Cancelado
+10043,2025-01-01,1038,BA,Beleza,Maquiagem,2,1854.23,185.42,38.43,3561.47,Cartão,Cancelado
+10044,2025-03-28,1084,RJ,Livros,Infantil,4,1336.52,66.83,45.78,5325.03,Pix,Em trânsito
+10045,2025-04-26,1025,MG,Beleza,Creme,1,2458.9,122.95,57.1,2393.05,Cartão,Entregue
+10046,2025-11-19,1073,PR,Roupas,Tênis,5,2552.22,0.0,41.88,12802.98,Boleto,Em trânsito
+10047,2025-02-24,1099,PE,Esportes,Halter,4,747.07,0.0,72.49,3060.77,Cartão,Entregue
+10048,2025-08-26,1085,RS,Beleza,Maquiagem,1,1681.07,0.0,41.95,1723.02,Pix,Em trânsito
+10049,2025-09-01,1057,BA,Beleza,Maquiagem,5,1348.82,67.44,62.06,6738.72,Cartão,Em trânsito
+10050,2025-05-01,1034,RS,Casa,Mesa,2,838.3,0.0,59.95,1736.55,Pix,Em trânsito
+10051,2025-02-02,1053,PE,Eletrônicos,Teclado,2,709.16,35.46,59.45,1442.31,Pix,Em trânsito
+10052,2025-10-27,1089,SP,Esportes,Halter,1,636.37,95.46,37.26,578.17,Boleto,Cancelado
+10053,2025-08-03,1068,PR,Esportes,Bola,3,909.87,136.48,69.74,2662.87,Pix,Entregue
+10054,2025-07-27,1092,MG,Casa,Mesa,4,106.49,10.65,56.82,472.13,Pix,Entregue
+10055,2025-08-08,1017,CE,Livros,Romance,4,1783.84,0.0,15.88,7151.24,Cartão,Entregue
+10056,2025-07-14,1035,PE,Casa,Mesa,3,650.75,65.08,33.63,1920.8,Pix,Entregue
+10057,2025-02-05,1099,SP,Esportes,Bola,5,175.22,17.52,25.7,884.28,Cartão,Entregue
+10058,2025-02-28,1072,PR,Roupas,Camiseta,5,474.1,23.71,43.15,2389.94,Pix,Em trânsito
+10059,2025-03-25,1039,RJ,Casa,Cadeira,2,1825.56,0.0,64.45,3715.57,Boleto,Entregue
+10060,2025-12-20,1080,PR,Casa,Mesa,4,2825.58,141.28,15.32,11176.36,Cartão,Em trânsito
+10061,2025-12-05,1047,RJ,Casa,Panela,5,2352.25,235.23,47.29,11573.31,Boleto,Em trânsito
+10062,2025-07-05,1081,CE,Casa,Panela,4,2470.55,0.0,40.35,9922.55,Boleto,Entregue
+10063,2025-10-03,1099,CE,Esportes,Bicicleta,5,2897.11,289.71,53.11,14248.95,Pix,Cancelado
+10064,2025-08-19,1031,CE,Beleza,Creme,3,2558.11,0.0,29.52,7703.85,Boleto,Em trânsito
+10065,2025-04-19,1045,BA,Beleza,Maquiagem,3,105.53,10.55,22.73,328.77,Pix,Cancelado
+10066,2025-07-28,1062,PR,Livros,Infantil,5,50.25,2.51,15.99,264.73,Boleto,Cancelado
+10067,2025-07-27,1088,PR,Beleza,Maquiagem,4,2382.94,0.0,30.6,9562.36,Pix,Em trânsito
+10068,2025-10-09,1042,RS,Livros,Infantil,4,1669.35,166.94,39.79,6550.25,Boleto,Cancelado
+10069,2025-10-02,1097,MG,Casa,Cadeira,3,707.0,35.35,32.09,2117.74,Cartão,Entregue
+10070,2025-04-10,1037,PR,Beleza,Maquiagem,3,2179.26,217.93,78.64,6398.49,Pix,Entregue
+10071,2025-10-11,1037,MG,Casa,Panela,5,397.22,0.0,78.2,2064.3,Boleto,Cancelado
+10072,2025-04-05,1006,BA,Eletrônicos,Mouse,5,867.33,130.1,40.83,4247.38,Pix,Entregue
+10073,2025-10-16,1038,RJ,Eletrônicos,Monitor,4,240.76,0.0,20.62,983.66,Cartão,Entregue
+10074,2025-07-14,1057,CE,Livros,HQ,5,1796.46,89.82,64.3,8956.78,Pix,Em trânsito
+10075,2025-04-17,1080,PR,Esportes,Raquete,5,1870.66,0.0,76.33,9429.63,Pix,Em trânsito
+10076,2025-07-29,1057,CE,Eletrônicos,Teclado,2,537.96,0.0,20.96,1096.88,Pix,Entregue
+10077,2025-04-30,1033,PR,Roupas,Jaqueta,3,2114.9,317.24,14.98,6042.44,Pix,Entregue
+10078,2025-03-26,1039,BA,Livros,Técnico,2,2727.07,136.35,15.0,5332.79,Pix,Entregue
+10079,2025-11-03,1005,PE,Esportes,Raquete,4,2829.18,424.38,40.64,10932.98,Boleto,Cancelado
+10080,2025-12-11,1034,SP,Livros,Infantil,1,292.15,0.0,79.97,372.12,Cartão,Cancelado
+10081,2025-09-09,1011,CE,Livros,HQ,3,560.84,84.13,54.43,1652.82,Pix,Cancelado
+10082,2025-09-11,1036,PE,Casa,Cadeira,1,2576.04,257.6,38.82,2357.26,Boleto,Entregue
+10083,2025-07-26,1065,SP,Esportes,Bola,3,772.15,0.0,77.91,2394.36,Boleto,Em trânsito
+10084,2025-09-13,1080,CE,Esportes,Halter,1,579.0,57.9,53.58,574.68,Cartão,Entregue
+10085,2025-11-19,1077,PR,Casa,Lâmpada,3,1325.59,198.84,18.5,3796.43,Boleto,Entregue
+10086,2025-02-28,1059,RJ,Casa,Panela,5,1235.81,61.79,79.46,6196.72,Boleto,Entregue
+10087,2025-08-30,1031,CE,Esportes,Raquete,5,2122.13,318.32,68.43,10360.76,Boleto,Entregue
+10088,2025-05-22,1098,PE,Esportes,Bicicleta,5,1534.56,76.73,70.48,7666.55,Pix,Em trânsito
+10089,2025-08-17,1068,CE,Casa,Panela,3,2183.63,327.54,70.57,6293.92,Pix,Cancelado
+10090,2025-05-03,1073,PE,Livros,HQ,4,2799.9,140.0,78.65,11138.25,Cartão,Cancelado
+10091,2025-12-06,1083,MG,Eletrônicos,Fone,4,2121.58,318.24,37.03,8205.11,Pix,Entregue
+10092,2025-08-22,1001,MG,Roupas,Jaqueta,1,2625.09,393.76,16.98,2248.31,Pix,Em trânsito
+10093,2025-12-21,1050,RJ,Roupas,Camiseta,4,2348.95,234.89,33.7,9194.61,Pix,Em trânsito
+10094,2025-01-19,1079,RJ,Livros,HQ,3,1887.86,283.18,71.07,5451.47,Cartão,Em trânsito
+10095,2025-11-21,1090,RJ,Beleza,Creme,2,2245.36,336.8,78.48,4232.4,Pix,Entregue
+10096,2025-07-11,1055,MG,Beleza,Creme,1,157.05,0.0,30.54,187.59,Cartão,Em trânsito
+10097,2025-05-04,1063,MG,Esportes,Bicicleta,2,541.71,81.26,53.38,1055.54,Cartão,Cancelado
+10098,2025-08-27,1036,MG,Beleza,Creme,4,780.87,0.0,72.92,3196.4,Cartão,Cancelado
+10099,2025-04-12,1049,CE,Casa,Cadeira,4,2077.13,311.57,69.17,8066.12,Cartão,Entregue
+10100,2025-12-04,1050,BA,Esportes,Raquete,5,901.7,90.17,11.54,4429.87,Cartão,Em trânsito
+10101,2025-04-28,1077,RS,Beleza,Shampoo,5,2240.61,224.06,64.3,11043.29,Cartão,Em trânsito
+10102,2025-08-14,1004,RS,Roupas,Jaqueta,2,1892.18,0.0,31.63,3815.99,Boleto,Entregue
+10103,2025-10-04,1046,BA,Eletrônicos,Fone,3,2247.49,112.37,24.06,6654.16,Cartão,Cancelado
+10104,2025-03-14,1096,PR,Esportes,Raquete,3,2416.61,362.49,77.4,6964.74,Boleto,Em trânsito
+10105,2025-10-02,1015,CE,Beleza,Maquiagem,5,1110.01,166.5,10.97,5394.52,Pix,Em trânsito
+10106,2025-04-30,1060,SP,Beleza,Creme,5,1155.46,115.55,17.58,5679.33,Boleto,Em trânsito
+10107,2025-06-04,1083,PE,Casa,Lâmpada,1,1913.5,287.02,73.66,1700.14,Cartão,Entregue
+10108,2025-10-03,1017,PE,Eletrônicos,Mouse,3,2987.86,0.0,16.8,8980.38,Pix,Cancelado
+10109,2025-12-02,1012,CE,Beleza,Maquiagem,5,2231.96,111.6,71.98,11120.18,Boleto,Cancelado
+10110,2025-07-05,1012,RS,Casa,Panela,3,667.46,100.12,76.54,1978.8,Boleto,Em trânsito
+10111,2025-08-21,1011,PR,Casa,Panela,4,842.13,0.0,76.43,3444.95,Boleto,Em trânsito
+10112,2025-10-17,1026,RJ,Livros,Romance,1,2364.65,118.23,79.22,2325.64,Boleto,Entregue
+10113,2025-11-02,1000,BA,Livros,Técnico,2,999.11,49.96,65.21,2013.47,Cartão,Entregue
+10114,2025-07-03,1100,PR,Livros,Infantil,2,347.58,0.0,19.23,714.39,Boleto,Cancelado
+10115,2025-02-02,1060,CE,Eletrônicos,Teclado,3,176.15,26.42,46.83,548.86,Pix,Em trânsito
+10116,2025-12-04,1066,BA,Livros,Romance,4,1521.44,0.0,60.91,6146.67,Pix,Em trânsito
+10117,2025-09-09,1091,CE,Eletrônicos,Mouse,4,2544.95,381.74,58.03,9856.09,Cartão,Entregue
+10118,2025-11-02,1067,BA,Casa,Lâmpada,1,396.05,39.61,36.66,393.1,Pix,Em trânsito
+10119,2025-11-30,1098,PR,Livros,HQ,1,2383.43,0.0,69.7,2453.13,Pix,Cancelado
+10120,2025-02-18,1040,PE,Roupas,Tênis,3,2485.71,372.86,39.12,7123.39,Pix,Em trânsito
+10121,2025-02-13,1011,PE,Casa,Cadeira,2,2066.73,310.01,14.7,3838.15,Cartão,Em trânsito
+10122,2025-07-30,1045,PE,Beleza,Creme,2,1677.98,167.8,56.9,3245.06,Boleto,Entregue
+10123,2025-09-04,1028,RJ,Casa,Cadeira,3,328.73,16.44,20.83,990.58,Pix,Em trânsito
+10124,2025-11-15,1078,SP,Casa,Panela,3,1730.82,259.62,69.16,5002.0,Boleto,Em trânsito
+10125,2025-06-29,1000,MG,Beleza,Creme,1,557.64,55.76,74.51,576.39,Cartão,Em trânsito
+10126,2025-09-29,1027,PE,Beleza,Maquiagem,1,442.79,0.0,16.42,459.21,Pix,Cancelado
+10127,2025-10-18,1076,RJ,Casa,Lâmpada,3,948.68,94.87,64.38,2815.55,Cartão,Entregue
+10128,2025-08-15,1053,BA,Roupas,Camiseta,1,830.87,124.63,44.0,750.24,Cartão,Em trânsito
+10129,2025-06-07,1005,PR,Eletrônicos,Fone,4,350.45,52.57,46.89,1396.12,Pix,Em trânsito
+10130,2025-05-11,1037,RS,Eletrônicos,Mouse,2,918.23,45.91,63.71,1854.26,Cartão,Entregue
+10131,2025-12-09,1045,RJ,Esportes,Halter,2,404.97,20.25,45.02,834.71,Pix,Em trânsito
+10132,2025-10-22,1054,PE,Eletrônicos,Monitor,1,1390.07,0.0,70.35,1460.42,Boleto,Em trânsito
+10133,2025-11-13,1058,RS,Esportes,Raquete,1,1227.0,122.7,22.03,1126.33,Cartão,Cancelado
+10134,2025-06-08,1095,RS,Eletrônicos,Teclado,4,1774.84,0.0,37.7,7137.06,Cartão,Cancelado
+10135,2025-06-28,1044,MG,Roupas,Camiseta,5,1907.01,95.35,73.41,9513.11,Cartão,Entregue
+10136,2025-12-02,1009,MG,Roupas,Jaqueta,2,537.03,26.85,63.22,1110.43,Boleto,Cancelado
+10137,2025-11-18,1040,MG,Esportes,Halter,5,1936.12,193.61,70.5,9557.49,Pix,Entregue
+10138,2025-02-07,1039,CE,Esportes,Halter,3,2393.06,0.0,34.64,7213.82,Pix,Entregue
+10139,2025-09-17,1049,CE,Eletrônicos,Fone,3,248.66,0.0,53.05,799.03,Boleto,Em trânsito
+10140,2025-09-01,1064,MG,Beleza,Shampoo,4,2728.97,136.45,32.51,10811.94,Cartão,Cancelado
+10141,2025-12-29,1056,CE,Eletrônicos,Fone,1,1523.56,76.18,12.74,1460.12,Boleto,Em trânsito
+10142,2025-06-23,1086,SP,Livros,Técnico,3,1131.1,113.11,37.12,3317.31,Boleto,Em trânsito
+10143,2025-12-03,1077,MG,Casa,Panela,3,301.63,45.24,29.89,889.54,Pix,Entregue
+10144,2025-12-29,1010,BA,Livros,Técnico,3,944.49,141.67,19.03,2710.83,Boleto,Cancelado
+10145,2025-08-05,1065,RS,Beleza,Creme,2,2016.95,0.0,55.22,4089.12,Cartão,Cancelado
+10146,2025-03-12,1019,RJ,Casa,Lâmpada,2,1038.36,155.75,23.44,1944.41,Pix,Entregue
+10147,2025-03-20,1020,MG,Livros,Romance,3,2631.65,131.58,51.81,7815.18,Boleto,Em trânsito
+10148,2025-11-09,1036,CE,Roupas,Tênis,1,1244.36,62.22,77.87,1260.01,Cartão,Em trânsito
+10149,2025-10-20,1056,CE,Roupas,Jaqueta,4,2713.84,135.69,35.75,10755.42,Pix,Cancelado
+10150,2025-01-27,1082,CE,Livros,HQ,2,2454.34,122.72,71.11,4857.07,Pix,Em trânsito
