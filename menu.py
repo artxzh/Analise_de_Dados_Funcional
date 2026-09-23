@@ -10,7 +10,6 @@ def main_menu():
       print("Não existe arquivo com esse nome!")
       arquivo = input("Digite o nome do arquivo: ")
     df = load_csv(arquivo.lower())
-    df_list = []
     
     print("""
       1: Vizualizar média;

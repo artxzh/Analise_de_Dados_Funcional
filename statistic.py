@@ -34,3 +34,5 @@ def view_medians(list):
   print(
     f"Média: {list[0]} Mediana: {list[1]} Moda: {list[2]}"
   )
+
+  

@@ -5,7 +5,7 @@ from statistic import *
 def load_csv(file):
   return pd.read_csv(f"./files/{file}.csv")
 
-#Criar csv com colunar inexistentes
+#Criar csv com colunas inexistentes
 # Arrumar função
 def new_csv(df_list, clomuns_list, string):
   new_df = {}
