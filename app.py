@@ -1,5 +1,5 @@
 from statistic import *
-from menu import *
+from Menu.main_menu import *
 
 
 if __name__ == "__main__":

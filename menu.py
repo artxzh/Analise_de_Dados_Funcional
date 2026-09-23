@@ -3,7 +3,7 @@ from graphs import *
 from files_creator import *
 from validations import *
 
-def main_menu():
+def main_menu_antigo():
   while True:
     arquivo = input("Digite o nome do arquivo: ")
     while(check_file("files", arquivo)) == False:

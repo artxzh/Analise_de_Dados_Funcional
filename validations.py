@@ -5,6 +5,13 @@ def check_column(df, string):
   if True not in df.columns.isin([string]):
     return False
 
+def validate_column(df):
+  string = input("Digite a coluna que você deseja acessar: ")
+  while check_column(df, string) is False:
+    print("Essa coluna não existe no seu arquivo")
+    string = input("Digite a coluna que você deseja acessar: ")
+  return string
+
 def check_file(paramer_pasta, nome_arquivo):
   pasta = f"./{paramer_pasta}"
   
