@@ -3,7 +3,11 @@ import os
 
 def check_column(df, string):
   if True not in df.columns.isin([string]):
-    return False
+    return 
+
+def check_parameter(df, column, parameter):
+  checked = df[column].isin([parameter]).any()
+  return checked
 
 def validate_column(df):
   string = input("Digite a coluna que você deseja acessar: ")

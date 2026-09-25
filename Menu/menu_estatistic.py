@@ -31,9 +31,9 @@ def menu_estatistic(df):
       case 2:
         median = get_median(df, coluna)
         opcao_median = int(input("1- Exibir no terminal;\n 2- Retornar novo arquivo;"))
-        if opcao_mean == 1:
+        if opcao_median == 1:
           print(median)
-        elif opcao_mean == 2:
+        elif opcao_median == 2:
           df_list = [median]
           nome_arquivo_median = input("Digite o nome do arquivo que será retornado: ")
           return new_csv(df_list, nome_arquivo_median)

@@ -14,6 +14,7 @@ def menu_filter(df_):
     match opcao:
       case 1:
         column = validate_column(df_)
+        parameter = validate_parameter(column)
         break
         
       #case 2:

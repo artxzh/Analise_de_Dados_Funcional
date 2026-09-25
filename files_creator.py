@@ -19,17 +19,3 @@ def new_csv(df_list, clomuns_list, string):
     string = input("Digite um novo nome para o arquivo: ")
     
   return new_df.to_csv(f"./report/{string}.csv", index=False)
-
-
-"""
-df = load_csv("dados")
-grupo = df.groupby("categoria")["valor_total"].sum().reset_index()
-print(grupo)
-
-grupo.to_csv("resultado.csv")
-
-for nome, dados in grupo:
-    print("Categoria:", nome)
-    print(dados)
-    print()
-    """
