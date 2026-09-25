@@ -16,6 +16,14 @@ def validate_column(df):
     string = input("Digite a coluna que você deseja acessar: ")
   return string
 
+def validate_parameter(df, column):
+  parameter = input("Digite qual o parametro de comparação: ")
+  check = check_parameter(df, column, parameter)
+  while check == False:
+    parameter = input("Digite um parâmentro válido: ")
+    check = check_parameter(df, column, parameter)
+  return parameter
+
 def check_file(paramer_pasta, nome_arquivo):
   pasta = f"./{paramer_pasta}"
   
