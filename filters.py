@@ -14,10 +14,14 @@ def filter_columns(df, column, parameter, int):
   return filter.to_csv(f"./report/{nome_arquivo}.csv")
 
 # Filtragem de Número Acima e Abaixo
-def filter_numbers_under(df, number):
-  filter = df[df["valor_total"] < number]
+def filter_numbers_under(df, number, parameter):
+  filter = df[df[parameter] < number]
   return filter
 
-def filter_number_above(df, number):
-  filter = df[df["valor_total"] > number]
+def filter_number_above(df, number, parameter):
+  filter = df[df[parameter] > number]
+  return filter
+
+def filter_number_equal(df, number, parameter):
+  filter = df[df[parameter] == number]
   return filter
