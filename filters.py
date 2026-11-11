@@ -1,5 +1,5 @@
 import pandas as pd
-from statistic import *
+from Analise_de_Dados_Funcional.statistics.statistic import *
 from files_creator import *
 from files_creator import *
 

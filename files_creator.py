@@ -1,6 +1,6 @@
 import pandas as pd
 from validations import *
-from statistic import *
+from Analise_de_Dados_Funcional.statistics.statistic import *
 
 def load_csv(file):
   return pd.read_csv(f"./files/{file}.csv")

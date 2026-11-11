@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-from statistic import *
+from Analise_de_Dados_Funcional.statistics.statistic import *
 
 def create_graph(x, y):
   bars = np.array(x)

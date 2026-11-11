@@ -1,4 +1,4 @@
-from statistic import *
+from Analise_de_Dados_Funcional.statistics.statistic import *
 from Menu.main_menu import *
 
 

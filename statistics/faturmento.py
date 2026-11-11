@@ -3,6 +3,7 @@ from validations import *
 from files_creator import *
 
 #Filtro pronto do faturamento total
+#Atualizar para permitir criar arquivos novos
 def faturamento_total(df):
   filter = df[df["status"] == "Entregue"]
   valor_total = filter["valor_total"].sum()

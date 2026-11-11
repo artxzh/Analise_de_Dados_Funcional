@@ -1,4 +1,4 @@
-from statistic import *
+from Analise_de_Dados_Funcional.statistics.statistic import *
 from graphs import *
 from files_creator import *
 from validations import *
