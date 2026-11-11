@@ -1,4 +1,4 @@
-from statistic import *
+from Analise_de_Dados_Funcional.statistics.statistic import *
 
 def menu_estatistic(df):
   while True:
@@ -6,13 +6,11 @@ def menu_estatistic(df):
       1- Média
       2- Mediana
       3- Moda
-      4- Faturamento Total
-      5- Ticket Médio Total
-      6- Sair do Terminal
+      4- Estatísticas Básicas
+      5- Sair do Terminal
     """)
     opcao = int(input("Escolha a opção:"))
-    if 0 < opcao < 4:
-      coluna = input("Digite a que coluna você deseja acessar: ")
+    coluna = input("Digite a que coluna você deseja acessar: ")
 
     df_list = []
     
@@ -49,14 +47,14 @@ def menu_estatistic(df):
           nome_arquivo_mode = input("Digite o nome do arquivo que será retornado: ")
           return new_csv(df_list, nome_arquivo_mode)
         break
-
+      
+      #Todas as 3 estatísticas básicas
       case 4:
-        faturamento = faturamento_total(df)
-        print(f"O faturamento total foi de R${faturamento}")
+        mean = get_mean(df)
+        median = get_median(df)
+        mode = get_mode(df)
+        df_list = [mean, median, mode]
+        view_medians(df_list)
 
       case 5:
-        ticket_medio = ticket_medio_total(df)
-        print(f"O Ticket médio total foi de R${ticket_medio}")
-
-      case 6:
         break
